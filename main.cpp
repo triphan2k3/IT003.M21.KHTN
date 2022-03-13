@@ -24,7 +24,7 @@ void writeAnswer(ofstream& cout, vector<string> vecString, string Head) {
 
 int main() {
     string fileCppName = "gentest";
-    //system((fileCppName + ".exe").c_str());
+    system((fileCppName + ".exe").c_str());
     ofstream out (((string)"answer.csv").c_str());
     vector<string> qsC, msC, hsC, inT, qsT, msT, hsT;
     for (int iTest = iFirst; iTest <= iLast; iTest++) {
