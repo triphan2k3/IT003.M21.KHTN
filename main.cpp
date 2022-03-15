@@ -19,9 +19,9 @@ int main() {
     system((fileCppName + ".exe").c_str());
     ofstream cout (((string)"answer.csv").c_str());
 
-    cout << ", Read Input Time";
-    cout << ", Quick Sort Check, Quick Sort Time, Merge Sort Check, Merge Sort Time";
-    cout << ", Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time\n";
+    cout << "Test number,Read Input Time";
+    cout << ",Quick Sort Check,Quick Sort Time,Merge Sort Check,Merge Sort Time";
+    cout << ",Heap Sort Check,Heap Sort Time,C++ Sort Check,C++ Sort Time\n";
     // Column of CSV File
 
     for (int iTest = iFirst; iTest <= iLast; iTest++) {
@@ -49,4 +49,5 @@ int main() {
         inp.close();
     }
     cout.close();
+    system("python chart.py");
 }

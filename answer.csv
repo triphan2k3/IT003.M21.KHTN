@@ -1,11 +1,11 @@
-, Read Input Time, Quick Sort Check, Quick Sort Time, Merge Sort Check, Merge Sort Time, Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time
-Test 01,  5.979,  Sorted,  0.061,  Sorted,  1.043,  Sorted,  0.556,  Sorted,  0.173
-Test 02,  7.465,  Sorted,  0.075,  Sorted,  1.111,  Sorted,  0.754,  Sorted,  0.161
-Test 03,  8.316,  Sorted,  0.313,  Sorted,  1.672,  Sorted,  0.808,  Sorted,  0.421
-Test 04,  8.055,  Sorted,  0.286,  Sorted,  3.181,  Sorted,  1.182,  Sorted,  0.391
-Test 05,  6.967,  Sorted,  0.221,  Sorted,  1.187,  Sorted,  0.695,  Sorted,  0.319
-Test 06,  6.160,  Sorted,  0.237,  Sorted,  1.231,  Sorted,  0.707,  Sorted,  0.331
-Test 07,  6.560,  Sorted,  0.219,  Sorted,  1.196,  Sorted,  0.715,  Sorted,  0.320
-Test 08,  6.105,  Sorted,  0.218,  Sorted,  1.184,  Sorted,  0.707,  Sorted,  0.319
-Test 09,  6.367,  Sorted,  0.219,  Sorted,  1.184,  Sorted,  0.719,  Sorted,  0.324
-Test 10,  6.106,  Sorted,  0.218,  Sorted,  1.182,  Sorted,  0.713,  Sorted,  0.330
+Test number,Read Input Time,Quick Sort Check,Quick Sort Time,Merge Sort Check,Merge Sort Time,Heap Sort Check,Heap Sort Time,C++ Sort Check,C++ Sort Time
+Test 01,  5803.000,  Sorted,  58.000,  Sorted,  1020.000,  Sorted,  560.000,  Sorted,  181.000
+Test 02,  6355.000,  Sorted,  65.000,  Sorted,  1063.000,  Sorted,  795.000,  Sorted,  149.000
+Test 03,  6420.000,  Sorted,  220.000,  Sorted,  1194.000,  Sorted,  713.000,  Sorted,  320.000
+Test 04,  6438.000,  Sorted,  224.000,  Sorted,  1205.000,  Sorted,  726.000,  Sorted,  329.000
+Test 05,  6957.000,  Sorted,  219.000,  Sorted,  1184.000,  Sorted,  705.000,  Sorted,  327.000
+Test 06,  6526.000,  Sorted,  220.000,  Sorted,  1190.000,  Sorted,  705.000,  Sorted,  323.000
+Test 07,  6586.000,  Sorted,  222.000,  Sorted,  1194.000,  Sorted,  712.000,  Sorted,  324.000
+Test 08,  6651.000,  Sorted,  224.000,  Sorted,  1205.000,  Sorted,  726.000,  Sorted,  431.000
+Test 09,  7027.000,  Sorted,  216.000,  Sorted,  1200.000,  Sorted,  703.000,  Sorted,  325.000
+Test 10,  7036.000,  Sorted,  221.000,  Sorted,  1204.000,  Sorted,  727.000,  Sorted,  327.000
