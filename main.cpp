@@ -14,56 +14,39 @@ string intToString(int x)
     return st;
 }
 
-void writeAnswer(ofstream& cout, vector<string> vecString, string Head) {
-    cout << Head;
-    for (auto value: vecString)  
-        cout << ", " << value.substr(value.rfind(":") + 1, value.size() - value.rfind(":") + 1);
-    cout << "\n";
-    return;
-}
-
 int main() { 
     string fileCppName = "gentest";
     system((fileCppName + ".exe").c_str());
-    ofstream out (((string)"answer.csv").c_str());
-    vector<string> qsC, msC, hsC, inT, qsT, msT, hsT;
+    ofstream cout (((string)"answer.csv").c_str());
+
+    cout << ", Read Input Time";
+    cout << ", Quick Sort Ckeck, Quick Sort Time, Merge Sort Check, Merge Sort Time";
+    cout << ", Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time\n";
+    // Column of CSV File
+
     for (int iTest = iFirst; iTest <= iLast; iTest++) {
         string inputFile = "./OUTPUT/" + intToString(iTest) + ".OUT";
         //cout << "/OUTPUT/" + intToString(iTest) + ".OUT\n";
+        cout << "Test " << intToString(iTest);  
         ifstream inp (inputFile.c_str());
         string quickSortCheck; getline(inp, quickSortCheck);
         string mergeSortCheck; getline(inp, mergeSortCheck);
         string heapSortCheck; getline(inp, heapSortCheck);
+        string cplusplusSortCheck; getline(inp, cplusplusSortCheck);
 
         string inputTime; getline(inp, inputTime);
 
         string quickSortTime; getline(inp, quickSortTime);
         string mergeSortTime; getline(inp, mergeSortTime);
         string heapSortTime; getline(inp, heapSortTime);
+        string cplusplusSortTime; getline(inp, cplusplusSortTime);
 
-        qsC.push_back(quickSortCheck);
-        msC.push_back(mergeSortCheck);
-        hsC.push_back(heapSortCheck);
-
-        inT.push_back(inputTime);
-
-        qsT.push_back(quickSortTime);
-        msT.push_back(mergeSortTime);
-        hsT.push_back(heapSortTime);
-
+        string a[9] = {inputTime, quickSortCheck, quickSortTime, mergeSortCheck, mergeSortTime
+                        , heapSortCheck, heapSortTime, cplusplusSortCheck, cplusplusSortTime};
+        for (auto value:a)
+            cout << ", " << value.substr(value.rfind(":") + 1, value.size() - value.rfind(":") + 1);
+        cout << "\n";
         inp.close();
     }
-    for (int i = iFirst; i <= iLast; i++)
-        out << ", Test " << intToString(i);
-    out << "\n";
-
-    writeAnswer(out, inT, "Read Input");
-    writeAnswer(out, qsC, "Quick Sort Check");
-    writeAnswer(out, qsT, "Quick Sort Time");
-    writeAnswer(out, msC, "Merge Sort Check");
-    writeAnswer(out, msT, "Merge Sort Time");
-    writeAnswer(out, hsC, "Heap Sort Check");
-    writeAnswer(out, hsT, "Heap Sort Time");
-
-    out.close();
+    cout.close();
 }

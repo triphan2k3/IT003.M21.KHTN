@@ -42,9 +42,10 @@ void MakeTest(ofstream& cout, int iTest)  // ham sinh test
 {
     vector<double> a;
     const int N = 1000000;
+    const long long maxN = 1000000000;
     cout << N << "\n";
     for (int i = 0; i <= N; ++i)
-        a.push_back(random<double>(-1000000000,1000000000));
+        a.push_back(random<double>(-maxN,maxN));
     if (iTest == 1)
         sort(a.begin(), a.end());
     if (iTest == 2)

@@ -144,3 +144,23 @@ class heap_sort{
             return "Heap Sort Check: Sorted\n";
         }
 };
+
+template <typename T>
+class cplusplus_sort {
+    public:
+        vector<T> a;
+        int n;
+        cplusplus_sort(vector<T> a) {
+            this -> a = a;
+            n = a.size();
+        }
+        void sort() {
+            std::sort(a.begin(), a.end());
+            return;
+        }
+        string is_Sorted() {
+            for (int i = 0; i + 1 < n; i++)
+                if (a[i] > a[i+1]) return "C++ Sort Check: Unsorted\n";
+            return "C++ Sort Check: Sorted\n";
+        }
+};
