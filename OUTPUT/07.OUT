@@ -2,8 +2,8 @@ Quick Sort Check: Sorted
 Merge Sort Check: Sorted
 Heap Sort Check: Sorted
 C++ Sort Check: Sorted
-INPUT TIME: 6.59
-QUICK SORT TIME: 0.24
-MERGE SORT TIME: 1.19
-HEAP SORT TIME: 0.70
-C++ SORT TIME: 0.37
+INPUT TIME: 6.560
+QUICK SORT TIME: 0.219
+MERGE SORT TIME: 1.196
+HEAP SORT TIME: 0.715
+C++ SORT TIME: 0.320

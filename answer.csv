@@ -1,11 +1,11 @@
-, Read Input Time, Quick Sort Ckeck, Quick Sort Time, Merge Sort Check, Merge Sort Time, Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time
-Test 01,  5.88,  Sorted,  0.06,  Sorted,  1.03,  Sorted,  0.55,  Sorted,  0.18
-Test 02,  5.95,  Sorted,  0.07,  Sorted,  1.07,  Sorted,  0.77,  Sorted,  0.14
-Test 03,  6.40,  Sorted,  0.22,  Sorted,  1.48,  Sorted,  0.72,  Sorted,  0.32
-Test 04,  6.44,  Sorted,  0.22,  Sorted,  1.19,  Sorted,  0.80,  Sorted,  0.33
-Test 05,  6.37,  Sorted,  0.22,  Sorted,  1.20,  Sorted,  0.70,  Sorted,  0.33
-Test 06,  6.65,  Sorted,  0.22,  Sorted,  1.20,  Sorted,  0.70,  Sorted,  0.33
-Test 07,  6.59,  Sorted,  0.24,  Sorted,  1.19,  Sorted,  0.70,  Sorted,  0.37
-Test 08,  6.50,  Sorted,  0.22,  Sorted,  1.26,  Sorted,  0.72,  Sorted,  0.32
-Test 09,  6.65,  Sorted,  0.22,  Sorted,  1.19,  Sorted,  0.77,  Sorted,  0.35
-Test 10,  6.66,  Sorted,  0.22,  Sorted,  1.20,  Sorted,  0.71,  Sorted,  0.32
+, Read Input Time, Quick Sort Check, Quick Sort Time, Merge Sort Check, Merge Sort Time, Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time
+Test 01,  5.979,  Sorted,  0.061,  Sorted,  1.043,  Sorted,  0.556,  Sorted,  0.173
+Test 02,  7.465,  Sorted,  0.075,  Sorted,  1.111,  Sorted,  0.754,  Sorted,  0.161
+Test 03,  8.316,  Sorted,  0.313,  Sorted,  1.672,  Sorted,  0.808,  Sorted,  0.421
+Test 04,  8.055,  Sorted,  0.286,  Sorted,  3.181,  Sorted,  1.182,  Sorted,  0.391
+Test 05,  6.967,  Sorted,  0.221,  Sorted,  1.187,  Sorted,  0.695,  Sorted,  0.319
+Test 06,  6.160,  Sorted,  0.237,  Sorted,  1.231,  Sorted,  0.707,  Sorted,  0.331
+Test 07,  6.560,  Sorted,  0.219,  Sorted,  1.196,  Sorted,  0.715,  Sorted,  0.320
+Test 08,  6.105,  Sorted,  0.218,  Sorted,  1.184,  Sorted,  0.707,  Sorted,  0.319
+Test 09,  6.367,  Sorted,  0.219,  Sorted,  1.184,  Sorted,  0.719,  Sorted,  0.324
+Test 10,  6.106,  Sorted,  0.218,  Sorted,  1.182,  Sorted,  0.713,  Sorted,  0.330
