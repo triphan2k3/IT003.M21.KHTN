@@ -20,7 +20,7 @@ int main() {
     ofstream cout (((string)"answer.csv").c_str());
 
     cout << ", Read Input Time";
-    cout << ", Quick Sort Ckeck, Quick Sort Time, Merge Sort Check, Merge Sort Time";
+    cout << ", Quick Sort Check, Quick Sort Time, Merge Sort Check, Merge Sort Time";
     cout << ", Heap Sort Check, Heap Sort Time, C++ Sort Check, C++ Sort Time\n";
     // Column of CSV File
 
