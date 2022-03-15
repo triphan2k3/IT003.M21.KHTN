@@ -50,7 +50,7 @@ void MakeTest(ofstream& cout, int iTest)  // ham sinh test
     if (iTest == 2)
         sort(a.rbegin(), a.rend());
     for (auto value:a)
-        cout << value << " ";
+        cout << setprecision(9) << fixed << value << " ";
 }
 
 int main()
@@ -73,7 +73,7 @@ int main()
 
         MakeTest(inp, iTest);
         inp.close();
-
+        
         system(((string)"sorting.exe").c_str());  // bat buoc phai co file (TASKNAME + ".exe") thi chuong trinh moi chay duoc
         
         string newinputFile = intToString(iTest) + ".INP";

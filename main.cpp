@@ -22,7 +22,7 @@ void writeAnswer(ofstream& cout, vector<string> vecString, string Head) {
     return;
 }
 
-int main() {
+int main() { 
     string fileCppName = "gentest";
     system((fileCppName + ".exe").c_str());
     ofstream out (((string)"answer.csv").c_str());

@@ -8,7 +8,7 @@ class quick_sort
     public:
         vector<T> a; // array
         int n; // size off array = a.size()
-        quick_sort(vector<T> a) 
+        quick_sort(vector<T> a)
         {
             this -> a = a;
             n = a.size();

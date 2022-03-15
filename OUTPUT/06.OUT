@@ -1,7 +1,7 @@
 Quick Sort Check: Sorted
 Merge Sort Check: Sorted
 Heap Sort Check: Sorted
-INPUT TIME: 3.15
+INPUT TIME: 3.91
 QUICK SORT TIME: 0.20
-MERGE SORT TIME: 0.98
-HEAP SORT TIME: 0.72
+MERGE SORT TIME: 1.04
+HEAP SORT TIME: 0.78
