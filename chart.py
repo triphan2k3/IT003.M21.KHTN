@@ -16,4 +16,4 @@ for i, a, b, c, d in zip(ind, data['Quick Sort Time'], data['C++ Sort Time'], da
   plt.text(i + 0.27, d + 10, str(d), color='r', horizontalalignment='center')
 
 plt.savefig('time execute.png')
-# plt.show()
+plt.show()
