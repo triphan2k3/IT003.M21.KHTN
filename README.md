@@ -16,4 +16,5 @@ Generate test, save as SORT.INP run sorting.exe to proces this test case. Rename
 
 ## main.cpp
 
-- Just run gentest.exe and output to answer.csv useful infomation.
+- Run gentest.exe and output to answer.csv useful infomation.
+- Run chart.py to plot chart
