@@ -42,9 +42,9 @@ int main() {
     cout << cs.is_Sorted();
     clock_t end_cplusplus_sort = clock();
 
-    printf("INPUT TIME: %.3f\n",(double)(end_input - begin_input));
-    printf("QUICK SORT TIME: %.3f\n",(double)(end_quick_sort - begin_quick_sort));
-    printf("MERGE SORT TIME: %.3f\n",(double)(end_merge_sort - begin_merge_sort));
-    printf("HEAP SORT TIME: %.3f\n",(double)(end_heap_sort - begin_heap_sort));
-    printf("C++ SORT TIME: %.3f\n",(double)(end_cplusplus_sort - begin_cplusplus_sort));
+    printf("INPUT TIME: %d\n",(int)(end_input - begin_input));
+    printf("QUICK SORT TIME: %d\n",(int)(end_quick_sort - begin_quick_sort));
+    printf("MERGE SORT TIME: %d\n",(int)(end_merge_sort - begin_merge_sort));
+    printf("HEAP SORT TIME: %d\n",(int)(end_heap_sort - begin_heap_sort));
+    printf("C++ SORT TIME: %d\n",(int)(end_cplusplus_sort - begin_cplusplus_sort));
 }

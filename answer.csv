@@ -1,11 +1,11 @@
 Test number,Read Input Time,Quick Sort Check,Quick Sort Time,Merge Sort Check,Merge Sort Time,Heap Sort Check,Heap Sort Time,C++ Sort Check,C++ Sort Time
-Test 01,  5803.000,  Sorted,  58.000,  Sorted,  1020.000,  Sorted,  560.000,  Sorted,  181.000
-Test 02,  6355.000,  Sorted,  65.000,  Sorted,  1063.000,  Sorted,  795.000,  Sorted,  149.000
-Test 03,  6420.000,  Sorted,  220.000,  Sorted,  1194.000,  Sorted,  713.000,  Sorted,  320.000
-Test 04,  6438.000,  Sorted,  224.000,  Sorted,  1205.000,  Sorted,  726.000,  Sorted,  329.000
-Test 05,  6957.000,  Sorted,  219.000,  Sorted,  1184.000,  Sorted,  705.000,  Sorted,  327.000
-Test 06,  6526.000,  Sorted,  220.000,  Sorted,  1190.000,  Sorted,  705.000,  Sorted,  323.000
-Test 07,  6586.000,  Sorted,  222.000,  Sorted,  1194.000,  Sorted,  712.000,  Sorted,  324.000
-Test 08,  6651.000,  Sorted,  224.000,  Sorted,  1205.000,  Sorted,  726.000,  Sorted,  431.000
-Test 09,  7027.000,  Sorted,  216.000,  Sorted,  1200.000,  Sorted,  703.000,  Sorted,  325.000
-Test 10,  7036.000,  Sorted,  221.000,  Sorted,  1204.000,  Sorted,  727.000,  Sorted,  327.000
+Test 01,  7404,  Sorted,  75,  Sorted,  1262,  Sorted,  671,  Sorted,  205
+Test 02,  8139,  Sorted,  76,  Sorted,  1376,  Sorted,  1128,  Sorted,  242
+Test 03,  8242,  Sorted,  270,  Sorted,  1514,  Sorted,  1076,  Sorted,  394
+Test 04,  7788,  Sorted,  262,  Sorted,  1487,  Sorted,  1073,  Sorted,  398
+Test 05,  8032,  Sorted,  295,  Sorted,  1576,  Sorted,  1011,  Sorted,  380
+Test 06,  7644,  Sorted,  259,  Sorted,  1474,  Sorted,  948,  Sorted,  406
+Test 07,  7733,  Sorted,  282,  Sorted,  1540,  Sorted,  1121,  Sorted,  390
+Test 08,  8719,  Sorted,  275,  Sorted,  1447,  Sorted,  844,  Sorted,  351
+Test 09,  9327,  Sorted,  322,  Sorted,  1523,  Sorted,  1010,  Sorted,  381
+Test 10,  7987,  Sorted,  264,  Sorted,  1573,  Sorted,  1039,  Sorted,  396

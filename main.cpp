@@ -14,7 +14,7 @@ string intToString(int x)
     return st;
 }
 
-int main() { 
+int main() {
     string fileCppName = "gentest";
     system((fileCppName + ".exe").c_str());
     ofstream cout (((string)"answer.csv").c_str());
