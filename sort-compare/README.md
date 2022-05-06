@@ -11,9 +11,10 @@ Generate test, save as SORT.INP run sorting.exe to proces this test case. Rename
 
 - 01.INP number increase.
 - 02.INP number decrease.
-- 03.INP $\dots$ 10.INP is random.
-- abs(number) $\leq$ $10^9$.
+- 03.INP ... 10.INP is random.
+- |value| <= 10^9
 
 ## main.cpp
 
-- Just run gentest.exe and output to answer.csv useful infomation.
+- Run gentest.exe and output to answer.csv useful infomation.
+- Run chart.py to plot chart
